@@ -8,12 +8,8 @@ general:
   min_inlier_ratio_per_pair: 0.25
 
 extractor:
-  name: "superpoint"
-  max_keypoints: 8000 # -1 no limits
-  nms_radius: 4
-  keypoint_threshold: 0.005
-  remove_borders: 4
-  fix_sampling: False
+  name: "disk"
+  max_keypoints: 8000
 
 matcher:
   name: "lightglue"

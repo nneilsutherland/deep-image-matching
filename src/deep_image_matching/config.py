@@ -113,7 +113,7 @@ confs = {
     "disk+lightglue": {
         "extractor": {
             "name": "disk",
-            "max_keypoints": 4096,
+            "max_keypoints": 8000, # CHANGED FROM 4,000 FOR LUCA EXPERIMENTS 3
         },
         "matcher": {
             "name": "lightglue",
@@ -123,7 +123,7 @@ confs = {
         "extractor": {
             "name": "aliked",
             "model_name": "aliked-n16rot",
-            "max_num_keypoints": 4000,
+            "max_num_keypoints": 8000, # CHANGED FROM 4,000 FOR LUCA EXPERIMENTS 3
             "detection_threshold": 0.2,
             "nms_radius": 3,
         },
